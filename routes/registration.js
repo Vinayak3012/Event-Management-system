@@ -3,7 +3,7 @@ const router = express.Router();
 const registrationController = require("../controllers/registration");
 
 //registration
-router.post("/create", registrationController.create);
+router.post("/", registrationController.create);
 
 //all registration
 router.get("/all", registrationController.all);

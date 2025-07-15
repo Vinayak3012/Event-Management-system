@@ -119,7 +119,7 @@ module.exports.status = async (req, res) => {
     const status = {
       number_of_registrations: register_count,
       remaining_capacity: capacity_remaining,
-      percentage_capacity_usedL: percentage_capacity_used,
+      percentage_capacity_used: percentage_capacity_used,
     };
 
     res
