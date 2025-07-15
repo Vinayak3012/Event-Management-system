@@ -149,10 +149,11 @@ DELETE /api/registrations/cancel/:user_id/:event_id
 - {
   "number_of_registrations": 1,
       "remaining_capacity": 299,
-      "percentage_capacity_used": 0.66667,
+      "percentage_capacity_used": 0.66667
     }
 
-##Testing
+##  Testing
+
 Use Postman or hoppscotch to test endpoints. Make sure your PostgreSQL server is running and connected properly.
 
 
